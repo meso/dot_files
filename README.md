@@ -1,24 +1,34 @@
-# シェル起動時
+シェル
+=======
 
-git clone git@github.com:meso/dot_files.git .dot_files
-ln -s ~/.dot_files/.bashrc .bashrc
+> $ git clone git@github.com:meso/dot_files.git .dot_files
 
-## for Mac
+> $ ln -s ~/.dot_files/.bashrc .bashrc
 
-ln -s ~/.dot_files/.profile .profile
-.bash_extra: 各端末向けに修正
+端末ごと
+--------
 
-# Vim
+> $ ln -s ~/.dot_files/.profile .profile // for Mac
+> 
+> $ vim .dot_files/.bash_extra //各端末向けに修正
+> 
+> $ ln -s ~/.dot_files/.bash_extra .bash_extra
 
-ln -s ~/.dot_files/.vimrc .vimrc
-ln -s ~/.dot_files/.vim .vim
+Vim
+====
 
-## vundle対応
+> $ ln -s ~/.dot_files/.vimrc .vimrc
 
-cd .dot_files
-git submodule init
-git submodule update
+> $ ln -s ~/.dot_files/.vim .vim
 
-vim hoge
-:BundleInstall
+vundle対応
+----------
+
+> $ cd .dot_files
+>
+> $ git submodule init
+>
+> $ git submodule update
+> 
+> $ vim hoge //:BundleInstall
 
