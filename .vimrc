@@ -39,6 +39,8 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'Shougo/vimproc'
 Bundle 'Shougo/vimshell'
 Bundle 'thinca/vim-quickrun'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'wavded/vim-stylus'
 
 " ファイルタイプ判定ON
 filetype plugin indent on
