@@ -5,6 +5,8 @@
 
 > $ ln -s ~/.dot_files/.bashrc .bashrc
 
+> $ ln -s ~/.dot_files/.gitconfig .gitconfig
+
 端末ごと
 --------
 
