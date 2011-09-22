@@ -99,4 +99,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export PATH=~/bin:$PATH
-. ~/.bash_extra
+if [ -f ~/.bash_extra ]; then
+  . ~/.bash_extra
+fi
