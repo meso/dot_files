@@ -2,7 +2,7 @@ export TERM=xterm-color
 alias ls='ls -G'
 alias ll='ls -hl'
 
-if [ -f "~/.nvm/nvm.sh" ]; then
+if [ -f ~/.nvm/nvm.sh ]; then
   . ~/.nvm/nvm.sh
 fi
 
